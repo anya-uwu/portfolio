@@ -240,6 +240,15 @@ ul {
 
 a {
   text-decoration: none;
+  display: inline-block;
+}
+
+.linkContainer a,
+.contactA {
+  color: #14070E;
+  background-color: #DB9999;
+  padding: 7px 12px;
+  font-size: 0.8rem;
 }
 
 html {
@@ -289,9 +298,15 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 header {
