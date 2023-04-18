@@ -9,12 +9,13 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+a {
     font-family: $heading;
     margin: 0;
 }
 
-h1, .skills h2 {
+h1, .skills, header, a {
     color: $white;
 }
 
