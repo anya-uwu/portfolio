@@ -353,8 +353,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 50%;
@@ -371,6 +372,10 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   width: 25%;
+  margin: 10px 0;
+}
+.skills ul li i {
+  padding-bottom: 5px;
 }
 
 .projects {

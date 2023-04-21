@@ -37,7 +37,7 @@ header {
 
     ul {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
         width: 50%;
 
@@ -46,6 +46,10 @@ header {
             flex-direction: column;
             justify-content: center;
             width: 25%;
+            margin: 10px 0;
+            i {
+                padding-bottom: 5px;
+            }
         }
     }
 }
