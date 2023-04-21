@@ -6,6 +6,9 @@
     text-align: center;
 }
 
+section {
+    padding: 60px 0px;
+}
 
 nav ul {
     display: flex;
@@ -13,8 +16,6 @@ nav ul {
     align-self: center;
     flex-direction: row;
 }
-
-
 
 header {
     background-color: $primary;
@@ -30,6 +31,17 @@ header {
 
 .projects {
     background-color: $whiteShade;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        
+        li {
+            background-color: $white;
+            padding: 20px;
+            width: 50%;
+        }
+    }
 }
 
 .contact {

@@ -251,6 +251,10 @@ a {
   font-size: 0.8rem;
 }
 
+nav a {
+  color: #FFF;
+}
+
 html {
   font-size: 125%;
 }
@@ -268,13 +272,18 @@ a {
   margin: 0;
 }
 
-h1, .skills, header, nav a, .contact a {
+h1, .skills, header, .contact a {
   color: #FFF;
 }
 
 p {
   font-family: "Lora", serif;
   margin: 0;
+  font-size: 0.8rem;
+}
+
+h4, a {
+  font-size: 0.8rem;
 }
 
 .flexContainer {
@@ -292,6 +301,10 @@ p {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+section {
+  padding: 60px 0px;
 }
 
 nav ul {
@@ -323,6 +336,18 @@ header {
 
 .projects {
   background-color: #F8F4F3;
+}
+.projects ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.projects ul li {
+  background-color: #FFF;
+  padding: 20px;
+  width: 50%;
 }
 
 .contact {

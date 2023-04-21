@@ -15,7 +15,7 @@ a {
     margin: 0;
 }
 
-h1, .skills, header, nav a, .contact a{
+h1, .skills, header, .contact a{
     color: $white;
 }
 
@@ -23,4 +23,10 @@ h1, .skills, header, nav a, .contact a{
 p {
     font-family: $body;
     margin: 0;
+    font-size: 0.8rem;
 }
+
+h4, a {
+    font-size: 0.8rem;
+}
+

@@ -24,8 +24,33 @@ a {
 .linkContainer a,
 .contactA {
     color: $blackShade;
-    
     background-color: $tertiary;
     padding: 7px 12px;
     font-size: 0.8rem;
 }
+
+nav a {
+    color: $white
+}
+
+// nav {
+
+//     li {
+//         top: 50%;
+//         left: 50%;
+//         transform: translate(-50%, -50%);
+//         a {
+//             color: black;
+//             width: 200px;
+//             height: 70px;
+//             background-color: $secondary;
+//             border: 0px;
+//             position: relative;
+//             box-shadow: 
+//                 inset -2px 2px 1px 1px grey,
+//                 inset -2px 2px 1px 1px lightgrey,
+//                 inset 2px 0px 1px 1px lightgrey;
+//             ;
+//         }
+//     }
+// }
