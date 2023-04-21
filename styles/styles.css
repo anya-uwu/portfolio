@@ -329,25 +329,60 @@ header {
 .about {
   background-color: #FFF;
 }
+.about .wrapper {
+  width: 60%;
+}
 
 .skills {
   background-color: #365C46;
+}
+.skills ul {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.skills ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
 }
 
 .projects {
   background-color: #F8F4F3;
 }
+.projects h2 {
+  text-align: center;
+}
 .projects ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 100%;
 }
 .projects ul li {
   background-color: #FFF;
   padding: 20px;
-  width: 50%;
+  margin: 15px 0;
+  width: 48%;
 }
 
 .contact {

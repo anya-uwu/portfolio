@@ -23,23 +23,48 @@ header {
 
 .about {
     background-color: $white;
+
+    .wrapper {
+        width: 60%;
+    }
+
 }
 
 .skills {
     background-color: $primary;
+
+    ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 20%;
+        }
+    }
 }
 
 .projects {
     background-color: $whiteShade;
 
+    h2 {
+        text-align: center;
+    }
+
     ul {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
-        
+        width: 100%;
+
         li {
             background-color: $white;
             padding: 20px;
-            width: 50%;
+            margin: 15px 0;
+            width: 48%;
         }
     }
 }
