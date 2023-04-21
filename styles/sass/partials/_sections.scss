@@ -47,8 +47,19 @@ header {
             justify-content: center;
             width: 25%;
             margin: 10px 0;
+
             i {
                 padding-bottom: 5px;
+            }
+
+            transition: 0.2s ease;
+
+            &:hover {
+                transform: scale(1.10);
+            }
+
+            &:focus {
+                transform: scale(1.10);
             }
         }
     }

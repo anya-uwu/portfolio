@@ -292,7 +292,7 @@ p {
 
 h4,
 a, .skills li {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .skills i {
@@ -373,9 +373,19 @@ header {
           justify-content: center;
   width: 25%;
   margin: 10px 0;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 .skills ul li i {
   padding-bottom: 5px;
+}
+.skills ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.skills ul li:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .projects {
