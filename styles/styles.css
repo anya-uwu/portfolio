@@ -320,6 +320,9 @@ section {
   padding: 60px 0px;
 }
 
+nav {
+  width: 100%;
+}
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -329,10 +332,9 @@ nav ul {
           justify-content: space-evenly;
   -ms-flex-item-align: center;
       align-self: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 15px 0;
 }
 
 header {

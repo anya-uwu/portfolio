@@ -10,11 +10,17 @@ section {
     padding: 60px 0px;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-self: center;
-    flex-direction: row;
+nav {
+    width: 100%;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        box-sizing: inherit;
+
+        padding: 15px 0;
+    }
 }
 
 header {
@@ -32,8 +38,6 @@ header {
 
 .skills {
     background-color: $primary;
-
-    .flexContainer {}
 
     ul {
         display: flex;
