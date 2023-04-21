@@ -290,6 +290,10 @@ p {
   font-size: 0.8rem;
 }
 
+footer p {
+  color: #FFF;
+}
+
 h4,
 a, .skills li {
   font-size: 0.8rem;
@@ -419,5 +423,9 @@ header {
 }
 
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #365C46;
+  height: 60px;
 }

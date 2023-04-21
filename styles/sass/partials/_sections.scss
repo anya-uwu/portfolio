@@ -96,5 +96,7 @@ header {
 }
 
 footer {
+    display: flex;
     background-color: $primary;
+    height: 60px;
 }
