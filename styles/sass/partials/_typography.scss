@@ -10,12 +10,20 @@ h1,
 h2,
 h3,
 h4,
-a {
+a,
+.skills li {
     font-family: $heading;
     margin: 0;
 }
 
-h1, .skills, header, .contact a{
+h2 {
+    padding-bottom: 30px;
+}
+
+h1,
+.skills,
+header,
+.contact a {
     color: $white;
 }
 
@@ -26,7 +34,11 @@ p {
     font-size: 0.8rem;
 }
 
-h4, a {
-    font-size: 0.8rem;
+h4,
+a, .skills li {
+    font-size: 0.7rem;
 }
 
+.skills i {
+    font-size: 3rem;
+}
