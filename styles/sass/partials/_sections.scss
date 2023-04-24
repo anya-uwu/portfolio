@@ -24,7 +24,11 @@ nav {
 }
 
 header {
-    background-color: $primary;
+    // background-color: $primary;
+    background-image: url(../assets/img07.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
 }
 
 .about {
