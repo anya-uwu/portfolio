@@ -6,6 +6,15 @@
     text-align: center;
 }
 
+body {
+    background-image: url(../assets/img02.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 section {
     padding: 60px 0px;
 }
@@ -25,14 +34,14 @@ nav {
 
 header {
     // background-color: $primary;
-    background-image: url(../assets/img07.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-position: center center;
+    // background-image: url(../assets/img07.jpg);
+    // height: 50vh;
+    // background-size: cover;
+    // background-position: center center;
 }
 
 .about {
-    background-color: $white;
+    // background-color: $white;
 
     .wrapper {
         width: 60%;
@@ -41,7 +50,7 @@ header {
 }
 
 .skills {
-    background-color: $primary;
+    // background-color: $primary;
 
     ul {
         display: flex;
@@ -74,7 +83,7 @@ header {
 }
 
 .projects {
-    background-color: $whiteShade;
+    // background-color: $whiteShade;
 
     h2 {
         text-align: center;
@@ -96,11 +105,11 @@ header {
 }
 
 .contact {
-    background-color: $secondary;
+    // background-color: $secondary;
 }
 
 footer {
     display: flex;
-    background-color: $primary;
+    // background-color: $primary;
     height: 60px;
 }
