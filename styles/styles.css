@@ -430,6 +430,9 @@ nav ul {
   width: 48%;
   background: rgba(255, 255, 255, 0.1);
 }
+.projects ul li img {
+  border-radius: 15px;
+}
 
 footer {
   display: -webkit-box;
