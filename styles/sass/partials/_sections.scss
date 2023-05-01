@@ -8,14 +8,14 @@
 
 .glass {
     background: white;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
     // background: linear-gradient(to right bottom, rgba(228, 235, 242, 0.7), rgba(228, 235, 242, 0.3));
     
     // box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     // background: transparent;
-    // backdrop-filter: blur(7px);
+    backdrop-filter: blur(4px);
 
-    border-radius: 30px;
+    border-radius: 40px;
     padding: 20px 0;
 }
 
@@ -121,10 +121,16 @@ header {
         width: 100%;
 
         li {
-            padding: 20px;
+            padding: 30px;
             margin: 15px 0;
             width: 48%;
-            background: linear-gradient(to left top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+            background: linear-gradient(to left top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
+
+            // background: linear-gradient(to left top, rgba(228, 235, 242, 1), rgba(228, 235, 242, 0.7));
+
+            // background: linear-gradient(to left top, rgba(193, 208, 217, 1), rgba(193, 208, 217, 0.7));
+
+            box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 
             img {
                 border-radius: 15px;
