@@ -16,7 +16,12 @@ a,
     margin: 0;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 h2 {
+    font-size: 1.8rem;
     padding-bottom: 30px;
 }
 
@@ -31,7 +36,7 @@ header,
 p {
     font-family: $body;
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 footer p {
@@ -40,7 +45,7 @@ footer p {
 
 h4,
 a, .skills li {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .skills i {

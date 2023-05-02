@@ -281,19 +281,24 @@ a,
   margin: 0;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 h2 {
+  font-size: 1.8rem;
   padding-bottom: 30px;
 }
 
 p {
   font-family: "Cabin", sans-serif;
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 h4,
 a, .skills li {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .skills i {
