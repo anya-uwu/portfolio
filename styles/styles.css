@@ -249,6 +249,7 @@ a {
   background-color: #DB9999;
   padding: 7px 12px;
   font-size: 0.8rem;
+  border-radius: 40px;
 }
 
 nav a {
@@ -276,7 +277,7 @@ h3,
 h4,
 a,
 .skills li {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cabin", sans-serif;
   margin: 0;
 }
 
@@ -285,7 +286,7 @@ h2 {
 }
 
 p {
-  font-family: "Hind", sans-serif;
+  font-family: "Cabin", sans-serif;
   margin: 0;
   font-size: 0.8rem;
 }
@@ -373,7 +374,7 @@ nav ul {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 50%;
+  width: 60%;
 }
 .skills ul li {
   display: -webkit-box;
@@ -431,6 +432,10 @@ nav ul {
 }
 .projects ul li img {
   border-radius: 15px;
+}
+
+.contact p {
+  width: 60%;
 }
 
 footer {
