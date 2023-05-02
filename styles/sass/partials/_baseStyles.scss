@@ -29,11 +29,15 @@ a {
     border-radius: 40px;
 }
 
-nav a {
+button {
+    border: none;
+}
+
+button, nav a {
     color: $primary;
 }
 
-nav li, .header a {
+button, nav li, .header a {
     border-radius: 40px;
     padding: 12px 36px;
     color: $primary;
