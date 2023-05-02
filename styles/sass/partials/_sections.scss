@@ -19,12 +19,6 @@
     padding: 20px 0;
 }
 
-li.glass {
-
-    padding: 15px 10px;
-
-}
-
 body {
     // 02, 04, 07
     background-image: url(../assets/img08.jpg);
@@ -55,6 +49,16 @@ nav {
 }
 
 header {
+    padding-top: 20vh;
+    height: 100vh;
+
+    h1 {
+        padding-bottom: 15px;
+    }
+
+    p {
+        padding-bottom: 15px;
+    }
     
     // background-color: $primary;
     // background-image: url(../assets/img07.jpg);

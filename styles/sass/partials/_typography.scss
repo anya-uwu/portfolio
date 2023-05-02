@@ -17,7 +17,7 @@ a,
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
@@ -25,26 +25,14 @@ h2 {
     padding-bottom: 30px;
 }
 
-h1,
-.skills,
-header,
-.contact a {
-    // color: $white;
-}
-
-
 p {
     font-family: $body;
     margin: 0;
     font-size: 1rem;
 }
 
-footer p {
-    // color: $white;
-}
-
 h4,
-a, .skills li {
+a, .skills li, .header a {
     font-size: 1rem;
 }
 
