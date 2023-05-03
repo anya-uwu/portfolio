@@ -333,6 +333,15 @@ a, .skills li {
   text-align: center;
 }
 
+body {
+  background-image: url(../assets/img02.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 section {
   padding: 60px 0px;
 }
@@ -354,20 +363,10 @@ nav ul {
   padding: 15px 0;
 }
 
-header {
-  background-color: #365C46;
-}
-
-.about {
-  background-color: #FFF;
-}
 .about .wrapper {
   width: 60%;
 }
 
-.skills {
-  background-color: #365C46;
-}
 .skills ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -407,9 +406,6 @@ header {
           transform: scale(1.1);
 }
 
-.projects {
-  background-color: #F8F4F3;
-}
 .projects h2 {
   text-align: center;
 }
@@ -431,14 +427,9 @@ header {
   width: 48%;
 }
 
-.contact {
-  background-color: #B6CAA2;
-}
-
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #365C46;
   height: 60px;
 }
