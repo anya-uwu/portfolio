@@ -255,6 +255,19 @@ nav a {
   color: #FFF;
 }
 
+nav li, .skills li, .contact li {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+nav li:hover, .skills li:hover, .contact li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+nav li:focus, .skills li:focus, .contact li:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 html {
   font-size: 125%;
 }

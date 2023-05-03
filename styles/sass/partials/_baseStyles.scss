@@ -30,7 +30,19 @@ a {
 }
 
 nav a {
-    color: $white
+    color: $white;
+}
+
+nav li, .skills li, .contact li  {
+    transition: 0.2s ease;
+
+    &:hover {
+        transform: scale(1.10);
+    }
+
+    &:focus {
+        transform: scale(1.10);
+    }
 }
 
 // nav {
