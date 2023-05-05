@@ -41,14 +41,16 @@ button, nav a {
     color: $primary;
 }
 
-button, nav li, .header a {
+button, nav a, .header a {
     border-radius: 40px;
     padding: 12px 36px;
     color: $primary;
 }
 
 nav li {
-    background: linear-gradient(to left top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
+    border-radius: 40px;
+    background: #FFF;
+    // background: linear-gradient(to left top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
 }
 
 header a {

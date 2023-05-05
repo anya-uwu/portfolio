@@ -263,15 +263,15 @@ button, nav a {
   color: #0A1D2C;
 }
 
-button, nav li, .header a {
+button, nav a, .header a {
   border-radius: 40px;
   padding: 12px 36px;
   color: #0A1D2C;
 }
 
 nav li {
-  background: -webkit-gradient(linear, right bottom, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.7)));
-  background: linear-gradient(to left top, rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
+  border-radius: 40px;
+  background: #FFF;
 }
 
 header a {
@@ -341,8 +341,8 @@ a, .skills li, .header a, button {
   background: white;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.5)));
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
   border-radius: 40px;
   padding: 20px 0;
 }
@@ -458,7 +458,10 @@ header p {
           box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
 .projects ul li img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 15px;
+  border: 5px solid rgba(193, 208, 217, 0.5);
 }
 
 .contact p {
