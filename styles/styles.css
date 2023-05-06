@@ -250,8 +250,8 @@ a {
 .linkContainer a {
   color: #0A1D2C;
   background-color: #C1D0D9;
-  padding: 7px 12px;
-  font-size: 0.8rem;
+  padding: 10px 20px;
+  font-size: 1rem;
   border-radius: 40px;
 }
 
@@ -383,7 +383,7 @@ nav ul {
       align-self: center;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 header {
@@ -465,9 +465,6 @@ header {
           box-sizing: border-box;
   border-radius: 15px;
   border: 5px solid rgba(193, 208, 217, 0.5);
-}
-.projects ul li div {
-  padding-top: 10px;
 }
 
 .contact p {

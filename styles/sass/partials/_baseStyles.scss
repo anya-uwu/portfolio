@@ -28,8 +28,8 @@ a {
 .linkContainer a {
     color: $primary;
     background-color: #C1D0D9;
-    padding: 7px 12px;
-    font-size: 0.8rem;
+    padding: 10px 20px;
+    font-size: 1rem;
     border-radius: 40px;
 }
 
@@ -56,25 +56,3 @@ nav li {
 header a {
     background-color: $white;
 }
-
-// nav {
-
-//     li {
-//         top: 50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//         a {
-//             color: black;
-//             width: 200px;
-//             height: 70px;
-//             background-color: $secondary;
-//             border: 0px;
-//             position: relative;
-//             box-shadow: 
-//                 inset -2px 2px 1px 1px grey,
-//                 inset -2px 2px 1px 1px lightgrey,
-//                 inset 2px 0px 1px 1px lightgrey;
-//             ;
-//         }
-//     }
-// }
