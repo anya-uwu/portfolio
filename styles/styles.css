@@ -385,7 +385,8 @@ body {
   background-attachment: fixed;
 }
 
-header, section {
+header,
+section {
   padding: 30px 0;
 }
 
@@ -495,6 +496,94 @@ header {
           box-sizing: border-box;
   border-radius: 15px;
   border: 5px solid rgba(193, 208, 217, 0.5);
+}
+.projects .textContainer {
+  margin-top: 10px;
+}
+.projects li:nth-child(4) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.projects .loading {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+}
+.projects .loading li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #0A1D2C;
+  padding: 0;
+  margin: 0 5px;
+  -webkit-animation: animate 1.4s linear infinite;
+          animation: animate 1.4s linear infinite;
+}
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  80% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@keyframes animate {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  80% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+.projects .loading li:nth-child(1) {
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+.projects .loading li:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.projects .loading li:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.projects .loading li:nth-child(4) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.projects .loading li:nth-child(5) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
 
 .contact p {

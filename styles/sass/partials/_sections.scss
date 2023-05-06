@@ -10,7 +10,7 @@
     background: white;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
     // background: linear-gradient(to right bottom, rgba(228, 235, 242, 0.7), rgba(228, 235, 242, 0.3));
-    
+
     // box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     // background: transparent;
     backdrop-filter: blur(7px);
@@ -31,7 +31,8 @@ body {
     background-attachment: fixed;
 }
 
-header, section {
+header,
+section {
     padding: 30px 0;
 }
 
@@ -59,7 +60,7 @@ nav {
 header {
     padding-top: 20vh;
     height: 100vh;
-    
+
     // background-color: $primary;
     // background-image: url(../assets/img07.jpg);
     // height: 50vh;
@@ -142,13 +143,76 @@ header {
 
             // background: linear-gradient(to left top, rgba(193, 208, 217, 1), rgba(193, 208, 217, 0.7));
 
-            // box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
-
             img {
                 box-sizing: border-box;
                 border-radius: 15px;
                 border: 5px solid rgba($color: #C1D0D9, $alpha: 0.5);
             }
+        }
+    }
+
+    .textContainer {
+        margin-top: 10px;
+    }
+
+    li:nth-child(4) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loading {
+        justify-content: center;
+        padding-top: 30px;
+        
+        li {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            box-shadow: none;
+            background: $primary;
+            padding: 0;
+            margin: 0 5px;
+            animation: animate 1.4s linear infinite;
+
+        }
+
+        @keyframes animate {
+            0% {
+                transform: translateY(0);
+            }
+
+            60% {
+                transform: translateY(0);
+            }
+
+            80% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        li:nth-child(1) {
+            animation-delay: 0;
+        }
+
+        li:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        li:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        li:nth-child(4) {
+            animation-delay: 0.6s;
+        }
+
+        li:nth-child(5) {
+            animation-delay: 0.8s;
         }
     }
 }
@@ -157,6 +221,7 @@ header {
     p {
         width: 60%;
     }
+
     ul {
         width: 20%;
     }
@@ -166,6 +231,7 @@ footer {
     display: flex;
     // background-color: $primary;
     height: 60px;
+
     p {
         color: #FFF;
     }
