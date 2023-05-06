@@ -35,30 +35,30 @@ header, section {
     padding: 30px 0;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    padding: 15px 0;
+}
+
 nav {
     width: 100%;
 
     ul {
-        display: flex;
         justify-content: space-between;
         align-self: center;
         box-sizing: inherit;
 
-        padding: 15px 0;
+        padding: 10px 0;
     }
 }
 
 header {
     padding-top: 20vh;
     height: 100vh;
-
-    h1 {
-        padding-bottom: 15px;
-    }
-
-    p {
-        padding-bottom: 15px;
-    }
     
     // background-color: $primary;
     // background-image: url(../assets/img07.jpg);
@@ -111,7 +111,7 @@ header {
     // background-color: $whiteShade;
 
     .wrapper {
-        padding: 20px;
+        padding: 20px 30px;
     }
 
     h2 {
@@ -141,6 +141,11 @@ header {
                 border-radius: 15px;
                 border: 5px solid rgba($color: #C1D0D9, $alpha: 0.5);
             }
+
+            div {
+                padding-top: 10px;
+            }
+
         }
     }
 }
