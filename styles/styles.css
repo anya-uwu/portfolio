@@ -257,13 +257,17 @@ a {
 
 button {
   border: none;
+  background-color: #FFF;
 }
 
-button, nav a {
+button,
+nav a {
   color: #0A1D2C;
 }
 
-button, nav a, .header a {
+button,
+nav a,
+.header a {
   border-radius: 40px;
   padding: 12px 36px;
   color: #0A1D2C;
@@ -276,6 +280,32 @@ nav li {
 
 header a {
   background-color: #FFF;
+}
+
+li, button, header a {
+  -webkit-box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
+          box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
+}
+
+.socialLinks li {
+  border-radius: 50%;
+}
+.socialLinks a {
+  font-size: 1.4rem;
+  color: #0A1D2C;
+  background-color: #FFF;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 html {
@@ -419,6 +449,8 @@ header {
           justify-content: center;
   width: 25%;
   margin: 10px 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
@@ -457,8 +489,6 @@ header {
   width: 48%;
   background: -webkit-gradient(linear, right bottom, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.7)));
   background: linear-gradient(to left top, rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
-  -webkit-box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
-          box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
 .projects ul li img {
   -webkit-box-sizing: border-box;
@@ -470,10 +500,16 @@ header {
 .contact p {
   width: 60%;
 }
+.contact ul {
+  width: 20%;
+}
 
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 60px;
+}
+footer p {
+  color: #FFF;
 }
