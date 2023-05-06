@@ -33,11 +33,6 @@ a {
     border-radius: 40px;
 }
 
-button {
-    border: none;
-    background-color: #FFF;
-}
-
 button,
 nav a {
     color: $primary;
@@ -45,13 +40,13 @@ nav a {
 
 button,
 nav a,
-.header a {
+.header a, .mail {
     border-radius: 40px;
     padding: 12px 36px;
     color: $primary;
 }
 
-nav li {
+nav li, .contact a {
     border-radius: 40px;
     background: #FFF;
     // background: linear-gradient(to left top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
@@ -69,6 +64,7 @@ li, button, header a {
 
     li {
         border-radius: 50%;
+        margin: 0 5px;
     }
     
     a {

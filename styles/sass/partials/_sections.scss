@@ -164,7 +164,7 @@ header {
     .loading {
         justify-content: center;
         padding-top: 30px;
-        
+
         li {
             width: 15px;
             height: 15px;
@@ -224,6 +224,7 @@ header {
 
     ul {
         width: 20%;
+        justify-content: space-around;
     }
 }
 
