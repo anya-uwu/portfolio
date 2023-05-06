@@ -46,14 +46,17 @@ p {
 }
 
 nav {
+    position: static;
+    margin-top: 20px;
     width: 100%;
 
     ul {
-        justify-content: space-between;
+        padding: 0 20px;
+        justify-content: flex-end;
         align-self: center;
         box-sizing: inherit;
 
-        padding: 20px 0;
+        // padding: 20px 0;
     }
 }
 

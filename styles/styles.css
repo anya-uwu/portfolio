@@ -400,17 +400,19 @@ p {
 }
 
 nav {
+  position: static;
+  margin-top: 20px;
   width: 100%;
 }
 nav ul {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding: 0 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -ms-flex-item-align: center;
       align-self: center;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
-  padding: 20px 0;
 }
 
 header {
