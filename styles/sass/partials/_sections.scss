@@ -35,7 +35,7 @@ body {
 
 header,
 section {
-    padding: 30px 0;
+    margin: 60px 0;
 }
 
 ul {
@@ -86,6 +86,7 @@ nav {
 header {
     padding-top: 20vh;
     height: 100vh;
+    margin-bottom: 0;
     // background-color: $primary;
     // background-image: url(../assets/img07.jpg);
     // height: 50vh;
@@ -101,6 +102,7 @@ header {
 }
 
 .about {
+    margin-top: 0;
 
     .textContainer {
         width: 60%;
