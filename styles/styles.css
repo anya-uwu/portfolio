@@ -384,6 +384,9 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 header,
@@ -405,16 +408,21 @@ p {
 }
 
 nav {
+  position: sticky;
+  top: 20px;
+  z-index: 10;
+  margin-top: 20px;
+  width: 100%;
+}
+nav .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: sticky;
-  top: 0;
-  margin-top: 20px;
-  width: 100%;
+  -webkit-box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
+          box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
 nav .siteIcon {
   padding: 0;

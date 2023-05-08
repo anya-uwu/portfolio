@@ -29,6 +29,8 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    height: fit-content;
 }
 
 header,
@@ -46,19 +48,24 @@ p {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
     position: sticky;
-    top: 0;
+    top: 20px;
+    z-index: 10;
     margin-top: 20px;
     width: 100%;
-    
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
+    }
+
     .siteIcon {
         padding: 0;
         margin-left: 30px;
         box-sizing: border-box;
     }
-    
+
     i {
         font-size: 2rem;
     }
