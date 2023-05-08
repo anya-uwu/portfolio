@@ -4,7 +4,7 @@ html {
 
 // wrapper settings
 .wrapper {
-    width: 70%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -23,6 +23,11 @@ ul {
 a {
     text-decoration: none;
     display: inline-block;
+}
+
+// remove repetetive color code for a elements
+i {
+    color: $primary;
 }
 
 .linkContainer a {

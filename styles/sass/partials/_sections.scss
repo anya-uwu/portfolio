@@ -26,7 +26,7 @@ body {
     //#c7dfea #c9e4dd
     height: 50vh;
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -57,13 +57,15 @@ nav {
         box-sizing: inherit;
 
         // padding: 20px 0;
+        li {
+            margin-left: 10px;
+        }
     }
 }
 
 header {
     padding-top: 20vh;
     height: 100vh;
-
     // background-color: $primary;
     // background-image: url(../assets/img07.jpg);
     // height: 50vh;
