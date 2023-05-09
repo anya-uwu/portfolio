@@ -36,11 +36,16 @@ i {
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 40px;
-}
 
-button,
-nav a {
-    color: $primary;
+    &:hover {
+        color: $secondary;
+        background-color: $primary;
+    }
+
+    &:focus {
+        color: $secondary;
+        background-color: $primary;
+    }
 }
 
 button,
@@ -50,6 +55,18 @@ nav a,
     border-radius: 40px;
     padding: 12px 36px;
     color: $primary;
+
+
+
+    &:hover {
+        color: $white;
+        background-color: $primary;
+    }
+
+    &:focus {
+        color: $white;
+        background-color: $primary;
+    }
 }
 
 nav li,

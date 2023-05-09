@@ -258,10 +258,13 @@ i {
   font-size: 1rem;
   border-radius: 40px;
 }
-
-button,
-nav a {
-  color: #0A1D2C;
+.linkContainer a:hover {
+  color: #C1D0D9;
+  background-color: #0A1D2C;
+}
+.linkContainer a:focus {
+  color: #C1D0D9;
+  background-color: #0A1D2C;
 }
 
 button,
@@ -271,6 +274,20 @@ nav a,
   border-radius: 40px;
   padding: 12px 36px;
   color: #0A1D2C;
+}
+button:hover,
+nav a:hover,
+.header a:hover,
+.mail:hover {
+  color: #FFF;
+  background-color: #0A1D2C;
+}
+button:focus,
+nav a:focus,
+.header a:focus,
+.mail:focus {
+  color: #FFF;
+  background-color: #0A1D2C;
 }
 
 nav li,
