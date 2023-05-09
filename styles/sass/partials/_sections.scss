@@ -7,12 +7,9 @@
 }
 
 .glass {
-    background: white;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
-    // background: linear-gradient(to right bottom, rgba(228, 235, 242, 0.7), rgba(228, 235, 242, 0.3));
-
-    // box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-    // background: transparent;
+    background: $white;
+    background: linear-gradient(to right bottom, rgba($color: $white, $alpha: 0.9), rgba($color: $white, $alpha: 0.5));
+    
     backdrop-filter: blur(7px);
 
     border-radius: 40px;
@@ -53,9 +50,9 @@ nav {
     margin-top: 20px;
 
     .wrapper {
-        
+
         box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
-        
+
     }
 
     .siteIcon {
@@ -88,19 +85,6 @@ header {
     align-items: center;
     height: 100vh;
     margin-bottom: 0;
-
-    // background-color: $primary;
-    // background-image: url(../assets/img07.jpg);
-    // height: 50vh;
-    // background-size: cover;
-    // background-position: center center;
-
-    // .headerLinks {
-    //     flex-direction: column;
-    //     justify-content: space-between;
-    //     align-items: center;
-    //     height: 40vh;
-    // }
 }
 
 .about {
@@ -147,7 +131,6 @@ header {
 }
 
 .projects {
-    // background-color: $whiteShade;
 
     .wrapper {
         padding: 20px 30px;
@@ -164,21 +147,23 @@ header {
         width: 100%;
 
         li {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
             padding: 30px;
             margin: 15px 0;
             width: 48%;
-            background: linear-gradient(to left top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
-
-            // background: linear-gradient(to left top, rgba(228, 235, 242, 1), rgba(228, 235, 242, 0.7));
-
-            // background: linear-gradient(to left top, rgba(193, 208, 217, 1), rgba(193, 208, 217, 0.7));
+            background: linear-gradient(to left top, rgba($color: $white, $alpha: 1), rgba($color: $white, $alpha: 0.7));
 
             img {
                 box-sizing: border-box;
                 border-radius: 15px;
-                border: 5px solid rgba($color: #C1D0D9, $alpha: 0.5);
+                border: 5px solid rgba($color: $secondary, $alpha: 0.5);
             }
+        }
 
+        p {
             a {
                 font-weight: bold;
                 color: $primary;
@@ -270,6 +255,6 @@ footer {
     height: 60px;
 
     p {
-        color: #FFF;
+        color: $white;
     }
 }
