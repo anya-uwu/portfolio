@@ -389,7 +389,6 @@ body {
   height: fit-content;
 }
 
-header,
 section {
   margin: 60px 0;
 }
@@ -408,19 +407,9 @@ p {
 }
 
 nav {
-  position: sticky;
-  top: 20px;
-  z-index: 10;
   margin-top: 20px;
-  width: 100%;
 }
 nav .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
           box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
@@ -434,27 +423,40 @@ nav i {
   font-size: 2rem;
 }
 nav ul {
-  padding: 0 20px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-item-align: center;
       align-self: center;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  padding: 0 20px;
 }
 nav ul li {
-  margin-left: 10px;
+  margin: 0 5px;
 }
 
 header {
-  padding-top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   margin-bottom: 0;
 }
 
 .about {
   margin-top: 0;
+  padding-top: 60px;
 }
 .about .textContainer {
   width: 60%;
@@ -511,9 +513,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
@@ -530,6 +531,11 @@ header {
           box-sizing: border-box;
   border-radius: 15px;
   border: 5px solid rgba(193, 208, 217, 0.5);
+}
+.projects ul li a {
+  font-weight: bold;
+  color: #0A1D2C;
+  text-decoration: underline;
 }
 .projects .textContainer {
   margin-top: 10px;
