@@ -1,46 +1,53 @@
+// Typography styles
+
+// base font size 20px
 html {
     font-size: 125%;
 }
 
+// base font color
 body {
-    color: $blackShade;
+    color: $primary;
 }
 
+// setting font size and removing margins
 h1,
 h2,
 h3,
 h4,
 a,
-.skills li {
+.skills li,
+button {
     font-family: $heading;
     margin: 0;
 }
 
+h1 {
+    font-size: clamp(2rem, 6vw + 1rem, 5rem);
+    margin-bottom: 40px;
+
+}
+
 h2 {
-    padding-bottom: 30px;
+    font-size: clamp(1.5rem, 3vw + 1rem, 3rem);
+    margin-bottom: 10px;
 }
 
-h1,
-.skills,
-header,
-.contact a {
-    color: $white;
+h3 {
+    font-size: clamp(1.2rem, 0.75vw + 0.75rem, 2.5rem);
 }
-
 
 p {
     font-family: $body;
     margin: 0;
-    font-size: 0.8rem;
-}
-
-footer p {
-    color: $white;
 }
 
 h4,
-a, .skills li {
-    font-size: 0.8rem;
+a,
+.skills li,
+.header a,
+button, p {
+    font-size: clamp(0.8rem, 0.75vw + 0.6rem, 1.2rem);
 }
 
 .skills i {

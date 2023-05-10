@@ -1,68 +1,144 @@
+// Base styles
+
+html {
+    scroll-behavior: smooth;
+}
+
 // wrapper settings
 .wrapper {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
+
+    transition: 0.5s ease-in;
 }
 
+// base img styles
 img {
     max-width: 100%;
     display: block;
 }
 
+// removing base ul styles
 ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
+// removing default anchor styles
 a {
     text-decoration: none;
     display: inline-block;
 }
 
-.linkContainer a,
-.contactA {
-    color: $blackShade;
-    background-color: $tertiary;
-    padding: 7px 12px;
-    font-size: 0.8rem;
+// remove repetetive color code for a elements
+i {
+    color: $primary;
 }
 
-nav a {
-    color: $white;
+// styling skip link
+.skipLink {
+    i {
+        font-size: 2rem;
+        color: $white;
+
+        // transition on hover
+        transition: 0.2s ease;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+
+        &:focus {
+            transform: scale(1.5);
+        }
+    }
 }
 
-nav li, .skills li, .contact li  {
-    transition: 0.2s ease;
+// styles for the links on the project card
+.linkContainer a {
+    color: $primary;
+    background-color: $secondary;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 40px;
 
     &:hover {
-        transform: scale(1.10);
+        color: $secondary;
+        background-color: $primary;
     }
 
     &:focus {
-        transform: scale(1.10);
+        color: $secondary;
+        background-color: $primary;
     }
 }
 
-// nav {
 
-//     li {
-//         top: 50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//         a {
-//             color: black;
-//             width: 200px;
-//             height: 70px;
-//             background-color: $secondary;
-//             border: 0px;
-//             position: relative;
-//             box-shadow: 
-//                 inset -2px 2px 1px 1px grey,
-//                 inset -2px 2px 1px 1px lightgrey,
-//                 inset 2px 0px 1px 1px lightgrey;
-//             ;
-//         }
-//     }
-// }
+button,
+nav a,
+.contactA,
+.mail {
+    border-radius: 40px;
+    padding: 12px 36px;
+    color: $primary;
+
+    &:hover {
+        color: $white;
+        background-color: $primary;
+    }
+
+    &:focus {
+        color: $white;
+        background-color: $primary;
+    }
+}
+
+// base styles for header and contact sections
+nav li,
+.contact a {
+    border-radius: 40px;
+    background: $white;
+}
+
+// setting color of the header contact button
+.contactA {
+    background-color: $white;
+}
+
+// box shadow to certain a elements so they stand up
+li, .contactA {
+    box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
+}
+
+// styling social links in the contacts section
+.socialLinks {
+
+    li {
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    a {
+        font-size: 1.4rem;
+        color: $primary;
+        background-color: $white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: 0.2s ease;
+
+        &:hover {
+            transform: scale(1.10);
+        }
+
+        &:focus {
+            transform: scale(1.10);
+        }
+    }
+}
