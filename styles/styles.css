@@ -272,7 +272,7 @@ i {
   color: #0A1D2C;
   background-color: #C1D0D9;
   padding: 10px 20px;
-  font-size: 1rem;
+  margin: 5px 0;
   border-radius: 40px;
 }
 .linkContainer a:hover {
@@ -392,15 +392,14 @@ h3 {
 p {
   font-family: "Cabin", sans-serif;
   margin: 0;
-  font-size: clamp(0.8rem, 0.75vw + 0.6rem, 1.5rem);
 }
 
 h4,
 a,
 .skills li,
 .header a,
-button {
-  font-size: clamp(0.8rem, 0.75vw + 0.6rem, 1.5rem);
+button, p {
+  font-size: clamp(0.8rem, 0.75vw + 0.6rem, 1.2rem);
 }
 
 .skills i {
@@ -438,7 +437,7 @@ body {
   background-image: url(../assets/img08.jpg);
   height: 50vh;
   background-size: cover;
-  background-position: center top;
+  background-position: 30% 0%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: -webkit-fit-content;
@@ -502,12 +501,13 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 90vh;
   margin-bottom: 0;
 }
 
@@ -730,6 +730,9 @@ footer p {
   }
 }
 @media (max-width: 800px) {
+  nav a {
+    padding: 10px 20px;
+  }
   .wrapper {
     width: 90%;
   }
@@ -738,6 +741,33 @@ footer p {
   }
 }
 @media (max-width: 500px) {
+  .wrapper {
+    width: 95%;
+  }
+  .glass {
+    padding: 10px 0;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav ul {
+    padding: 0 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav ul li {
+    margin: 2%;
+    width: 43%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   section {
     margin: 30px 0;
   }
@@ -762,5 +792,10 @@ footer p {
   }
   .contact p {
     width: 90%;
+  }
+  .socialLinks a {
+    font-size: 1.2rem;
+    height: 40px;
+    width: 40px;
   }
 }

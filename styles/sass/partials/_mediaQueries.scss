@@ -22,6 +22,10 @@
 
 @media (max-width: 800px) {
 
+    nav a {
+        padding: 10px 20px;
+    }
+
     .wrapper {
         width: 90%;
     }
@@ -37,9 +41,40 @@
 
 @media (max-width: 500px) {
 
+    .wrapper {
+        width: 95%;
+    }
+
+    .glass {
+        padding: 10px 0
+    }
+
+    nav {
+        margin-top: 10px;
+        ul {
+            padding: 0 10px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            li {
+                margin: 2%;
+                width: 43%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    header {
+        // padding-top: 40px;
+        // justify-content: space-between;
+        // height: 75vh;
+    }
+
     section {
         margin: 30px 0;
     }
+
     .about .textContainer {
         width: 90%;
     }
@@ -62,6 +97,7 @@
         ul li {
             margin: 5px 0;
             padding: 20px;
+
             img {
                 border-radius: 20px;
             }
@@ -71,5 +107,11 @@
     .contact p {
         width: 90%;
 
+    }
+
+    .socialLinks a {
+        font-size: 1.2rem;
+        height: 40px;
+        width: 40px;
     }
 }

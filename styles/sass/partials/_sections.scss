@@ -23,7 +23,7 @@ body {
     //#c7dfea #c9e4dd
     height: 50vh;
     background-size: cover;
-    background-position: center top;
+    background-position: 30% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -77,9 +77,9 @@ nav {
 header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     margin-bottom: 0;
 }
 
