@@ -1,14 +1,14 @@
 // Fonts
-$heading: 'Roboto', sans-serif;
-$body: 'Lora', serif;
+
+// A bit redundant but having a body and heading variable will allow me to easily update the fonts in the future
+$heading: 'Cabin', sans-serif;
+$body: 'Cabin', sans-serif;
 
 // Colours
-$primary: #365C46;
-$secondary: #B6CAA2;
-$tertiary: #DB9999;
+$primary: #0A1D2C;
+$secondary: #C1D0D9;
+$tertiary: #638CA6;
 $quaternary: #F7E4DC;
 
-$blackShade: #14070E;
-$whiteShade: #F8F4F3;
-
 $white: #FFF;
+
