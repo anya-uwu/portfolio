@@ -3,17 +3,7 @@
 // screens smaller than 1100px
 @media (max-width: 1100px) {
 
-    .about .textContainer {
-        width: 80%;
-        transition: 0.5s ease;
-    }
-
-    .skills ul {
-        width: 80%;
-        transition: 0.5s ease;
-    }
-
-    .contact p {
+    .about .textContainer, .skills ul, .contact p {
         width: 80%;
         transition: 0.5s ease;
     }
