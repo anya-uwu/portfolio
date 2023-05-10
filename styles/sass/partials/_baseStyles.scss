@@ -30,6 +30,23 @@ i {
     color: $primary;
 }
 
+.skipLink {
+    i {
+        font-size: 2rem;
+        color: $white;
+
+        transition: 0.2s ease;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+
+        &:focus {
+            transform: scale(1.5);
+        }
+    }
+}
+
 .linkContainer a {
     color: $primary;
     background-color: $secondary;
@@ -50,13 +67,11 @@ i {
 
 button,
 nav a,
-.header a,
+.contactA,
 .mail {
     border-radius: 40px;
     padding: 12px 36px;
     color: $primary;
-
-
 
     &:hover {
         color: $white;
@@ -75,13 +90,13 @@ nav li,
     background: $white;
 }
 
-header a {
+.contactA {
     background-color: $white;
 }
 
 li,
 button,
-header a {
+.contactA {
     box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
 

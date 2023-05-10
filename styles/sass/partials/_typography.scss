@@ -11,13 +11,16 @@ h2,
 h3,
 h4,
 a,
-.skills li, button {
+.skills li,
+button {
     font-family: $heading;
     margin: 0;
 }
 
 h1 {
     font-size: 4rem;
+    margin-bottom: 40px;
+
 }
 
 h2 {
@@ -32,7 +35,10 @@ p {
 }
 
 h4,
-a, .skills li, .header a, button {
+a,
+.skills li,
+.header a,
+button {
     font-size: 1rem;
 }
 

@@ -251,6 +251,21 @@ i {
   color: #0A1D2C;
 }
 
+.skipLink i {
+  font-size: 2rem;
+  color: #FFF;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.skipLink i:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+.skipLink i:focus {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 .linkContainer a {
   color: #0A1D2C;
   background-color: #C1D0D9;
@@ -269,7 +284,7 @@ i {
 
 button,
 nav a,
-.header a,
+.contactA,
 .mail {
   border-radius: 40px;
   padding: 12px 36px;
@@ -277,14 +292,14 @@ nav a,
 }
 button:hover,
 nav a:hover,
-.header a:hover,
+.contactA:hover,
 .mail:hover {
   color: #FFF;
   background-color: #0A1D2C;
 }
 button:focus,
 nav a:focus,
-.header a:focus,
+.contactA:focus,
 .mail:focus {
   color: #FFF;
   background-color: #0A1D2C;
@@ -296,13 +311,13 @@ nav li,
   background: #FFF;
 }
 
-header a {
+.contactA {
   background-color: #FFF;
 }
 
 li,
 button,
-header a {
+.contactA {
   -webkit-box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
           box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
@@ -352,13 +367,15 @@ h2,
 h3,
 h4,
 a,
-.skills li, button {
+.skills li,
+button {
   font-family: "Cabin", sans-serif;
   margin: 0;
 }
 
 h1 {
   font-size: 4rem;
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -373,7 +390,10 @@ p {
 }
 
 h4,
-a, .skills li, .header a, button {
+a,
+.skills li,
+.header a,
+button {
   font-size: 1rem;
 }
 
