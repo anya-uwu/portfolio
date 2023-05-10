@@ -317,9 +317,7 @@ nav li,
   background-color: #FFF;
 }
 
-li,
-button,
-.contactA {
+li, .contactA {
   -webkit-box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
           box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
@@ -468,15 +466,6 @@ nav .wrapper {
   -webkit-box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
           box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
-nav .siteIcon {
-  padding: 0;
-  margin-left: 30px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-nav i {
-  font-size: 2rem;
-}
 nav ul {
   width: 100%;
   -webkit-box-pack: justify;
@@ -519,9 +508,6 @@ header {
 }
 
 .skills ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -566,9 +552,6 @@ header {
   text-align: center;
 }
 .projects ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-wrap: wrap;

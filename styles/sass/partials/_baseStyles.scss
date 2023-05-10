@@ -1,3 +1,5 @@
+// Base styles
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,17 +13,20 @@ html {
     transition: 0.5s ease-in;
 }
 
+// base img styles
 img {
     max-width: 100%;
     display: block;
 }
 
+// removing base ul styles
 ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
+// removing default anchor styles
 a {
     text-decoration: none;
     display: inline-block;
@@ -32,11 +37,13 @@ i {
     color: $primary;
 }
 
+// styling skip link
 .skipLink {
     i {
         font-size: 2rem;
         color: $white;
 
+        // transition on hover
         transition: 0.2s ease;
 
         &:hover {
@@ -49,6 +56,7 @@ i {
     }
 }
 
+// styles for the links on the project card
 .linkContainer a {
     color: $primary;
     background-color: $secondary;
@@ -66,6 +74,7 @@ i {
         background-color: $primary;
     }
 }
+
 
 button,
 nav a,
@@ -86,22 +95,24 @@ nav a,
     }
 }
 
+// base styles for header and contact sections
 nav li,
 .contact a {
     border-radius: 40px;
     background: $white;
 }
 
+// setting color of the header contact button
 .contactA {
     background-color: $white;
 }
 
-li,
-button,
-.contactA {
+// box shadow to certain a elements so they stand up
+li, .contactA {
     box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
 
+// styling social links in the contacts section
 .socialLinks {
 
     li {
@@ -129,6 +140,5 @@ button,
         &:focus {
             transform: scale(1.10);
         }
-
     }
 }
