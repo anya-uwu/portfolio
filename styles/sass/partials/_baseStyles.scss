@@ -32,6 +32,10 @@ a {
     display: inline-block;
 }
 
+button {
+    border: none;
+}
+
 // remove repetetive color code for a elements
 i {
     color: $primary;
@@ -108,7 +112,9 @@ nav li,
 }
 
 // box shadow to certain a elements so they stand up
-li, .contactA {
+li,
+.contactA,
+input {
     box-shadow: 6px 6px 20px rgba(102, 125, 138, 0.2);
 }
 
