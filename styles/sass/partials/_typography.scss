@@ -37,7 +37,7 @@ h3 {
     font-size: clamp(1.2rem, 0.75vw + 0.75rem, 2.5rem);
 }
 
-p {
+p, label{
     font-family: $body;
     margin: 0;
 }
@@ -46,7 +46,7 @@ h4,
 a,
 .skills li,
 .header a,
-button, p {
+button, p, label {
     font-size: clamp(0.8rem, 0.75vw + 0.6rem, 1.2rem);
 }
 
